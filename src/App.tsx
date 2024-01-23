@@ -1,16 +1,10 @@
-import AdvanceUseStateHook from "./hooks/advanceUseStateHook";
+import StarRating from "./components/StarRating";
 
 function App() {
-  const [get, set] = AdvanceUseStateHook(4);
-
-  const increase = () => {
-    set();
-  };
-
   return (
     <>
-      <p>Hello{get}</p>
-      <button onClick={increase}>Increase IT</button>
+      <p>App</p>
+      <StarRating limits={10} rating={5}/>
     </>
   );
 }

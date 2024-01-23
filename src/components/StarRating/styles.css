@@ -1,0 +1,8 @@
+.star::before {
+    content: '\2606';
+}
+
+.starRating::before {
+    content: '\2605';
+    color: rgb(199, 199, 18);
+}
