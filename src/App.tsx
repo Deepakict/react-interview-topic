@@ -1,3 +1,4 @@
+import Filter from "./components/Filter";
 import StarRating from "./components/StarRating";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <>
       <p>App</p>
       <StarRating limits={10} rating={5}/>
+      <Filter/>
     </>
   );
 }
